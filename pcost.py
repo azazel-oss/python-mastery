@@ -1,6 +1,6 @@
 def portfolio_cost(filename):
     result = 0.0
-    with open(f"../../Data/{filename}", "r") as file:
+    with open(f"Data/{filename}", "r") as file:
         f = file.read()
         lines = f.strip().split("\n")
         for line in lines:
